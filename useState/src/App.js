@@ -12,8 +12,12 @@ function App() {
 
   return (
     <div>
-      <button onClick={decrementCount}>-</button>
-      <span>{count}</span>
+      <h3>Welcome to counter App</h3>
+      <p>Count is : {count}</p>
+      <button onClick={decrementCount} style={{ margin: "5px" }}>
+        -
+      </button>
+
       <button onClick={incrementCount}>+</button>
     </div>
   );
